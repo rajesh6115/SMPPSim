@@ -19,3 +19,8 @@ All credential information is in the conf/smppsim.props
 the smpp-lib may not be downloaded, please get the maven dependency 
 in the conf/ folder and put it into your local maven repository:
 /.m2/respository/smpp/smpp-lib
+
+***update***:
+build: do `mvn clean` first, it will install that attention 3party to local mvn
+this needs to be done one time per build env
+then do `mvn clean package` as usual
